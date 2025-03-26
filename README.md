@@ -26,6 +26,46 @@ A simple and efficient trip cost calculator built with React. This tool helps us
    npm start
    ```
 
+## Deployment
+If you are deploying using GitHub Pages, update your `package.json` file:
+
+```json
+"scripts": {
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d dist"
+}
+```
+
+If you have `vite.config.ts` (TypeScript version), add the following:
+
+```ts
+import { defineConfig } from 'vite';
+import react from '@vitejs/plugin-react';
+
+export default defineConfig({
+  plugins: [react()],
+  base: '/tripcalculator/', // ← Add this line
+});
+```
+
+If you have `vite.config.js` (JavaScript version), add the following:
+
+```js
+import { defineConfig } from 'vite';
+import react from '@vitejs/plugin-react';
+
+export default defineConfig({
+  plugins: [react()],
+  base: '/tripcalculator/', // ← Add this line
+});
+```
+
+Then deploy using:
+
+```sh
+npm run deploy
+```
+
 ## Usage
 - Enter trip details such as distance, fuel efficiency, and cost per unit
 - Add accommodation and food costs
