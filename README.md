@@ -8,6 +8,12 @@ A simple and efficient trip cost calculator built with React. This tool helps us
 - 📊 Interactive and easy-to-use interface
 - ⚡ Fast and responsive design with animations
 
+## 🛠️ Technologies Used
+- React.js
+- Vite
+- Tailwind CSS
+- GitHub Pages
+
 ## Installation
 
 1. Clone the repository:
@@ -71,12 +77,8 @@ npm run deploy
 - Add accommodation and food costs
 - Get an estimated total cost for your trip
 
-## Contributing
-Pull requests are welcome! Please follow these steps:
-1. Fork the repository
-2. Create a new branch (`feature-branch`)
-3. Commit your changes
-4. Push to the branch and submit a PR
+## 🤝 Contribution
+Feel free to contribute by submitting issues or pull requests. Happy coding! 🚀
 
 ## License
 This project is licensed under the MIT License.
