@@ -1,20 +1,19 @@
-# tripcalculator
-# Stock Market Average Calculator
+# Trip Cost Calculator
 
-A visually impressive stock market average calculator built with React. This project includes animations and an intuitive UI for calculating stock market averages efficiently.
+A simple and efficient trip cost calculator built with React. This tool helps users estimate the total cost of a trip, including fuel expenses, accommodation, and other miscellaneous costs.
 
 ## Features
-- 📈 Interactive and animated UI
-- 🎨 Modern design with smooth transitions
-- ⚡ Fast and responsive calculations
-- 🛠 Built with React and Tailwind CSS
+- 🚗 Calculate total trip cost based on distance and fuel price
+- 🏨 Include accommodation and food expenses
+- 📊 Interactive and easy-to-use interface
+- ⚡ Fast and responsive design with animations
 
 ## Installation
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/theshivammaheshwari/stockcalculator.git
-   cd stockcalculator
+   git clone https://github.com/theshivammaheshwari/tripcalculator.git
+   cd tripcalculator
    ```
 
 2. Install dependencies:
@@ -28,9 +27,9 @@ A visually impressive stock market average calculator built with React. This pro
    ```
 
 ## Usage
-- Enter stock values and calculate the average
-- Explore different animation effects
-- Optimize portfolio decisions with ease
+- Enter trip details such as distance, fuel efficiency, and cost per unit
+- Add accommodation and food costs
+- Get an estimated total cost for your trip
 
 ## Contributing
 Pull requests are welcome! Please follow these steps:
