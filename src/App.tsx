@@ -276,7 +276,7 @@ const Index = () => {
       key: "rzp_test_Tag1F1gVlyhxN9",
       amount: 10000,
       currency: "INR",
-      name: "Trip Expense Tracker",
+      name: "Trip Calculator",
       description: "Support the developer",
       handler: function (response: any) {
         alert("Thank you for your support! Payment ID: " + response.razorpay_payment_id);
