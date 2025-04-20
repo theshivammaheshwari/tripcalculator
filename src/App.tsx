@@ -273,7 +273,7 @@ const Index = () => {
 
   const handleBuyMeACoffee = () => {
     const options = {
-      key: "rzp_test_Tag1F1gVlyhxN9",
+      key: "rzp_live_WbMdjDSTBNEsE3",
       amount: 10000,
       currency: "INR",
       name: "Trip Calculator",
