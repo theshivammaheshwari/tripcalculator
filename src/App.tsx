@@ -299,7 +299,7 @@ const Index = () => {
       <div className="max-w-6xl mx-auto">
         <div className="flex flex-col md:flex-row justify-between items-center mb-8">
           <h1 className="text-4xl font-bold text-blue-900">
-            Trip Expense Tracker
+            Trip Calculator
           </h1>
           <button
             onClick={handleBuyMeACoffee}
