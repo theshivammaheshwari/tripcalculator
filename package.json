@@ -1,7 +1,7 @@
 {
   "name": "vite-react-typescript-starter",
   "private": true,
-  "homepage": "https://theshivammaheshwari.github.io/tripcalculatoradvance",
+  "homepage": "https://theshivammaheshwari.github.io/tripcalculator",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
